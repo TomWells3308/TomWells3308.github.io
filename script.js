@@ -66,7 +66,7 @@ function draw() {
       fill(hexToRgb(pcolor).r,hexToRgb(pcolor).g,hexToRgb(pcolor).b); //pistil colour
       noStroke();
       //translate(x,y);
-      circle(x, y, 50)
+      circle(x, y, 3p)
       //translate(-x, -y);
   }
   if(place==false){
@@ -85,7 +85,7 @@ function draw() {
     fill(hexToRgb(pcolor).r,hexToRgb(pcolor).g,hexToRgb(pcolor).b,127); //pistil colour
     noStroke();
     //translate(x,y);
-    circle(x, y, 50)
+    circle(x, y, 30)
     //translate(-x, -y);
     
     let hcolor = document.getElementById("fhead").value
