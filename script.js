@@ -66,7 +66,7 @@ function draw() {
       fill(hexToRgb(pcolor).r,hexToRgb(pcolor).g,hexToRgb(pcolor).b); //pistil colour
       noStroke();
       //translate(x,y);
-      circle(x, y, 3p)
+      circle(x, y, 30)
       //translate(-x, -y);
   }
   if(place==false){
